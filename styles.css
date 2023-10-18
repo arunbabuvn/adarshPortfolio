@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Sf;
+    font-family: "SF Pro Display";
 }
 
 main {
@@ -209,6 +209,19 @@ img {
         width: 60%;
         margin: 0 auto;
     }
+
+    .intro h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .intro p {
+        font-size: 23px;
+        text-align: center;
+        color: #86868B;
+        text-decoration: none;
+    }
+
 
     .future-update {
         width: 60%;
