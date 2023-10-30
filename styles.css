@@ -92,6 +92,11 @@ main {
 
 }
 
+.about p {
+    font-size: 17px;
+}
+
+
 .about a:hover {
     color: blue;
 
@@ -224,12 +229,22 @@ img {
         text-align: center;
     }
 
-    /* .intro p {
-        font-size: 23px;
+    .intro p {
+        font-size: 15px;
         text-align: center;
         color: #86868B;
         text-decoration: none;
-    } */
+    }
+
+    .about {
+        color: #86868B;
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
 
 
     .future-update {
@@ -254,20 +269,29 @@ img {
         text-align: center;
     }
 
-    /* .intro p {
-        font-size: 23px;
+    .intro p {
+        font-size: 14px;
         text-align: center;
         color: #86868B;
         text-decoration: none;
-    } */
+    }
 
+    .about {
+        color: #86868B;
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
 
     .future-update {
         width: 60%;
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
 
     .project-intro .intro {
         width: 60%;
@@ -275,38 +299,51 @@ img {
     }
 
     .intro h1 {
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
     }
 
-    /* .intro p {
-        font-size: 23px;
+    .intro h3 {
+        font-size: 30px;
+    }
+
+    .intro p {
+        font-size: 12px;
         text-align: center;
         color: #86868B;
         text-decoration: none;
-    } */
+    }
 
+    .about {
+        color: #86868B;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
 
     .future-update {
         width: 60%;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .nav-links li {
         margin: 15px;
         font-size: 10px;
     }
 
-    /* .intro p {
-        font-size: 17px;
+    .intro p {
+        font-size: 10px;
         text-align: center;
         color: #86868B;
         text-decoration: none;
-    } */
+    }
 
     .intro h1 {
-        font-size: 34px;
+        font-size: 26px;
         text-align: center;
     }
 
@@ -327,11 +364,11 @@ img {
     }
 
     .about p {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .project-intro .intro {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
