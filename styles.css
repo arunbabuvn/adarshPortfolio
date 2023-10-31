@@ -8,10 +8,8 @@
     font-family: "Nimbus Sans L";
     font-style: normal;
     font-weight: 100;
-    src: url("./assets/fonts/NimbusSanL-Reg.otf") format(“opentype”)
+    src: url("./assets/fonts/NimbusSanL-Reg.otf") format(“opentype”);
 }
-
-@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
 
 body {
     font-family: "Nimbus Sans L";
@@ -106,6 +104,15 @@ main {
 
 .contacts {
     text-align: center;
+}
+
+.contacts p {
+    font-size: 17px;
+    color: #86868B;
+}
+
+.contacts h3 {
+    font-size: 64px;
 }
 
 
@@ -207,6 +214,14 @@ img {
 
 .resume {
     text-align: center;
+}
+
+.resume p {
+    font-size: 17px;
+}
+
+.resume h3 {
+    font-size: 64px;
 }
 
 @media screen and (max-width: 1100px) {
