@@ -12,6 +12,7 @@
 }
 
 body {
+    background-color: #f4f4f4;
     font-family: "Nimbus Sans L";
 }
 
@@ -44,7 +45,7 @@ main {
 }
 
 .nav-links a:hover {
-    color: blue;
+    color: #000000;
 }
 
 .intro h1 {
@@ -213,15 +214,61 @@ img {
 }
 
 .resume {
+    padding: 20px 10px 0px 10px;
+    border-radius: 20px;
+    margin: auto auto;
+    background-color: #ffffff;
+    width: 80%;
     text-align: center;
 }
 
 .resume p {
-    font-size: 17px;
+    font-size: 24px;
 }
 
-.resume h3 {
+.resume h1 {
     font-size: 64px;
+    overflow: hidden;
+
+}
+
+.card {
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+    /* width: 800px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #e6fcce;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding-left: 20px;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.card-img img {
+    border-radius: 10px;
+    width: 60%;
+    height: 70%;
 }
 
 @media screen and (max-width: 1100px) {
@@ -259,6 +306,15 @@ img {
         text-align: center;
         color: #86868B;
         text-decoration: none;
+    }
+
+    .resume p {
+        font-size: 20px;
+    }
+
+    .resume h1 {
+        overflow: hidden;
+        font-size: 50px;
     }
 
     .about {
@@ -368,6 +424,16 @@ img {
         text-decoration: none;
     }
 
+    .resume p {
+        font-size: 16px;
+    }
+
+    .resume h1 {
+        overflow: hidden;
+        font-size: 40px;
+    }
+
+
     .about {
         color: #86868B;
         width: 40%;
@@ -404,6 +470,15 @@ img {
         text-align: center;
         color: #86868B;
         text-decoration: none;
+    }
+
+    .resume p {
+        font-size: 12px;
+    }
+
+    .resume h1 {
+        font-size: 30px;
+        overflow: hidden;
     }
 
     .about {
@@ -443,6 +518,16 @@ img {
     .intro h3 {
         font-size: 30px;
     }
+
+    .resume p {
+        font-size: 12px;
+    }
+
+    .resume h1 {
+        overflow: hidden;
+        font-size: 30px;
+    }
+
 
     .abouts {
         display: flex;
