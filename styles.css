@@ -186,7 +186,7 @@ main {
     line-height: normal;
 }
 
-.projects {
+.projects-home {
     display: flex;
     padding-left: 0px;
     justify-content: space-between;
@@ -222,6 +222,16 @@ main {
     border: 1px solid #1D1D1F;
 }
 
+.project-text h3 {
+    color: #1D1D1F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .project-img {
     width: 300.046px;
     height: 340px;
@@ -248,28 +258,17 @@ main {
 .abouts {
     display: flex;
     justify-content: center;
+    gap: 220px;
 }
 
 .highlight {
     color: #1D1D1F;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Satoshi;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .about {
     color: #86868B;
-    width: 30%;
+    width: 35%;
     margin: 20px;
-}
-
-.about a {
-    text-decoration: none;
-    color: #86868B;
-
 }
 
 .about-h {
@@ -291,11 +290,6 @@ main {
     line-height: normal;
 }
 
-
-.about a:hover {
-    color: blue;
-
-}
 
 .contacts {
     color: #86868B;
@@ -323,7 +317,6 @@ main {
 }
 
 .contacts-col p {
-    color: #1D1D1F;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Satoshi;
     font-size: 24px;
